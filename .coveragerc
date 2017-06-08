@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/lambda_test_helper
+   */site-packages/lambda_test_helper
+
+[run]
+branch = true
+source =
+    lambda_test_helper
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
